@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script type="text/javascript">
+        function So_lon_nhat() {
+
+            const arr = [9, 0, 3, 8, 15, 19 , 66666]
+            var max = arr[0];
+
+
+            for (var i = 1; i < arr.length; i++) {
+                if (max < arr[i]) {
+                    max = arr[i]
+                }
+            }
+            alert("Số lốn nhất là:" + max)
+        }
+    </script>
+</head>
+<body>
+    <form>
+        <input type="button" 
+        value="Tìm số lớn nhất" onclick="So_lon_nhat()">
+    </form>
+
+</body>
+</html>
